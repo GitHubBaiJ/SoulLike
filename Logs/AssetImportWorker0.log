@@ -15,11 +15,11 @@ E:/UnityGames/SoulLike
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6467
+9057
 Successfully changed project path to: E:/UnityGames/SoulLike
 E:/UnityGames/SoulLike
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 18.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1c1 (a34b99c2c582)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,22 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002712 seconds.
+Registered in 0.002569 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.670 seconds
+- Completed reload, in  1.750 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000439 seconds.
+Registered in 0.000468 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -59,113 +59,535 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.702 seconds
+- Completed reload, in  0.726 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 59.5 MB.
-System memory in use after: 59.5 MB.
+System memory in use after: 59.6 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1558.
-Total: 1.744400 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.095900 ms MarkObjects: 1.330900 ms  DeleteObjects: 0.060100 ms)
+Total: 1.590800 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.349200 ms  DeleteObjects: 0.051100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89109700be8172bd51b8ef5796d635aa') in 0.002871 seconds
-  Import took 0.004514 seconds .
+  path: Assets/Resource/Animations/Player/xbot@Boxing(2).fbx
+  artifactKey: Guid(e3d2395d769524b4fa812e10a9f84e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Boxing(2).fbx using Guid(e3d2395d769524b4fa812e10a9f84e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcbdef2670ec27985fdd98d2f98e98c') in 0.184138 seconds
+  Import took 0.186183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.166817 seconds.
-  path: Assets/Resource
-  artifactKey: Guid(f8476a28722a819438e65b30ec63de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource using Guid(f8476a28722a819438e65b30ec63de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690b8bd11a62ec2957c8e2d66492d536') in 0.001161 seconds
-  Import took 0.002836 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Boxing(1).fbx
+  artifactKey: Guid(cb325e38f1a36bc41b17d83f8acd3e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Boxing(1).fbx using Guid(cb325e38f1a36bc41b17d83f8acd3e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49116e0ee44eea6982af406f6e3f4a17') in 0.032597 seconds
+  Import took 0.034329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Resource
-  artifactKey: Guid(f8476a28722a819438e65b30ec63de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource using Guid(f8476a28722a819438e65b30ec63de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690b8bd11a62ec2957c8e2d66492d536') in 0.000968 seconds
-  Import took 0.002335 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Boxing.fbx
+  artifactKey: Guid(bac08ee4380eb794dbe8f2de6b0518a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Boxing.fbx using Guid(bac08ee4380eb794dbe8f2de6b0518a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3589c087372ff3f08fb8c3d68b8fef') in 0.031172 seconds
+  Import took 0.032849 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.328686 seconds.
-  path: Assets/xbot.fbx
+  Time since last request: 15.903783 seconds.
+  path: Assets/Resource/Animations/Player/Boxing(1).anim
+  artifactKey: Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing(1).anim using Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0104d687df00b127aea98b3b76153efd') in 0.008287 seconds
+  Import took 0.010460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.153221 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_01.anim
+  artifactKey: Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_01.anim using Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa561968a09a3835cf34ad65a46abb32') in 0.005289 seconds
+  Import took 0.007477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.030807 seconds.
+  path: Assets/Resource/Animations/Player/Boxing(2).anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing(2).anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba5b81fede74a3b001b16292717172') in 0.006684 seconds
+  Import took 0.008891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Resource/Animations/Player/Boxing(2).anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing(2).anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba5b81fede74a3b001b16292717172') in 0.006439 seconds
+  Import took 0.008226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.546287 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_02.anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_02.anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f060c6f494b190515fb4cf3f5239fc2') in 0.005555 seconds
+  Import took 0.007388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.330435 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Boxing(3).fbx
+  artifactKey: Guid(036a1e5ee46d50a498e69b3802e9d040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Boxing(3).fbx using Guid(036a1e5ee46d50a498e69b3802e9d040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1135971b1989cbf823f63f289db3661b') in 0.053154 seconds
+  Import took 0.055197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394406 seconds.
+  path: Assets/Resource/Animations/Player/Boxing(3).anim
+  artifactKey: Guid(d8240e03421fefe478826cc724ce03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing(3).anim using Guid(d8240e03421fefe478826cc724ce03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4a5472310dc4a98bdc38433bc2671') in 0.010399 seconds
+  Import took 0.012155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.338756 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_03.anim
+  artifactKey: Guid(d8240e03421fefe478826cc724ce03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_03.anim using Guid(d8240e03421fefe478826cc724ce03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cce6c6da4c3c9b82f68a293e6b1f82') in 0.011226 seconds
+  Import took 0.013075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.734375 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Boxing(4).fbx
+  artifactKey: Guid(ce56d14593476384db88e26d4153cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Boxing(4).fbx using Guid(ce56d14593476384db88e26d4153cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db268ffcac2326dbdcc2d3a737d750ac') in 0.033187 seconds
+  Import took 0.035133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.532773 seconds.
+  path: Assets/Resource/Animations/Player/Boxing(4).anim
+  artifactKey: Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing(4).anim using Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb5d617da67534041aad0cbd3f354e') in 0.007480 seconds
+  Import took 0.009934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.541914 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_04.anim
+  artifactKey: Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_04.anim using Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cd61ac9911e14a600ba7882384e7ca') in 0.005673 seconds
+  Import took 0.007516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.339701 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Boxing(5).fbx
+  artifactKey: Guid(2a36e42eca70b654b921d2aabe476b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Boxing(5).fbx using Guid(2a36e42eca70b654b921d2aabe476b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf48ecc04b5e84f0bd681b5daf9a543d') in 0.052529 seconds
+  Import took 0.054941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.525873 seconds.
+  path: Assets/Resource/Animations/Player/Boxing(5).anim
+  artifactKey: Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing(5).anim using Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d53a18c2f0b127e46395a53f2be88ff') in 0.005184 seconds
+  Import took 0.007288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.264773 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_05.anim
+  artifactKey: Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_05.anim using Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770553e5ba6c3efcdae1add5eb97556') in 0.005427 seconds
+  Import took 0.007253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.747679 seconds.
+  path: Assets/Resource/Animations/Player/Boxing.anim
+  artifactKey: Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing.anim using Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb92d98c927c9ee92a2379dd9b5f699') in 0.005160 seconds
+  Import took 0.006916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.440202 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_06.anim
+  artifactKey: Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_06.anim using Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6782178a056bf89664d72ede06a097') in 0.005509 seconds
+  Import took 0.008136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.250436 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Defeated.fbx
+  artifactKey: Guid(ee15ee110ec70e24fb02ae8eb7ab6aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Defeated.fbx using Guid(ee15ee110ec70e24fb02ae8eb7ab6aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616969fd832a20b944675661461236b6') in 0.039838 seconds
+  Import took 0.041889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.225387 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Defeated 1.fbx
+  artifactKey: Guid(d421f5aafba8c77418286a21667bfb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Defeated 1.fbx using Guid(d421f5aafba8c77418286a21667bfb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed064ddc1978e6e3bd04455ccd1edd2') in 0.029427 seconds
+  Import took 0.031748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.417675 seconds.
+  path: Assets/Resource/Animations/Player/Defeated.anim
+  artifactKey: Guid(41d24c0b5ddd93847a2eb35e0bf8541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Defeated.anim using Guid(41d24c0b5ddd93847a2eb35e0bf8541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7909879d6b7645bd8862d4895bb7478') in 0.009072 seconds
+  Import took 0.010808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.303756 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Hook Punch.fbx
+  artifactKey: Guid(b0ff2056b012e3a418abbc08f8155e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Hook Punch.fbx using Guid(b0ff2056b012e3a418abbc08f8155e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03522155948facc23ed8385aed96a677') in 0.030004 seconds
+  Import took 0.032053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.997436 seconds.
+  path: Assets/Resource/Animations/Player/Hook Punch.anim
+  artifactKey: Guid(a82244485ad34fa4cacc08ec85c0672d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Hook Punch.anim using Guid(a82244485ad34fa4cacc08ec85c0672d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdccf74da8e88d8b62b8ddfe433bd3a0') in 0.005017 seconds
+  Import took 0.007165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.950459 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Hurricane Kick.fbx
+  artifactKey: Guid(9d337ac3d7f9624418ed2f369be922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Hurricane Kick.fbx using Guid(9d337ac3d7f9624418ed2f369be922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3743a9476dc632ff50e2c41220f2aa18') in 0.029150 seconds
+  Import took 0.031044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543589 seconds.
+  path: Assets/Resource/Animations/Player/Hurricane Kick.anim
+  artifactKey: Guid(9cf82bfc8525b7c4482532af3c024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Hurricane Kick.anim using Guid(9cf82bfc8525b7c4482532af3c024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd76dd64018d29ebbd94be94359d4aa5') in 0.002876 seconds
+  Import took 0.004801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001357 seconds.
+  path: Assets/Resource/Animations/Player/Hurricane Kick.anim
+  artifactKey: Guid(9cf82bfc8525b7c4482532af3c024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Hurricane Kick.anim using Guid(9cf82bfc8525b7c4482532af3c024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd76dd64018d29ebbd94be94359d4aa5') in 0.002585 seconds
+  Import took 0.004227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.947989 seconds.
+  path: Assets/Resource/Animations/Player/[Female].fbx
   artifactKey: Guid(d5bda39e477a5d24a9d6d0ba17500fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/xbot.fbx using Guid(d5bda39e477a5d24a9d6d0ba17500fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eba928e1565db448886e19bc2a946e') in 0.370234 seconds
-  Import took 0.372126 seconds .
+Start importing Assets/Resource/Animations/Player/[Female].fbx using Guid(d5bda39e477a5d24a9d6d0ba17500fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09a1b3d26abc6c076ea84792c626b3a') in 0.028963 seconds
+  Import took 0.030869 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.502683 seconds.
-  path: Assets/Resource/Packs
-  artifactKey: Guid(281464de20b82c54a8bf258b622bf20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource/Packs using Guid(281464de20b82c54a8bf258b622bf20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c131a392bd122dcb3e0831a604735e0') in 0.001143 seconds
-  Import took 0.003236 seconds .
+  Time since last request: 1.719487 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Martelo 2.fbx
+  artifactKey: Guid(2041508cc1cf3164b930da6855b78543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Martelo 2.fbx using Guid(2041508cc1cf3164b930da6855b78543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04098e3b8e979a875fa90ace1ededfd0') in 0.031742 seconds
+  Import took 0.033773 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000563 seconds.
-  path: Assets/Resource/Packs
-  artifactKey: Guid(281464de20b82c54a8bf258b622bf20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource/Packs using Guid(281464de20b82c54a8bf258b622bf20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c131a392bd122dcb3e0831a604735e0') in 0.001245 seconds
-  Import took 0.002963 seconds .
+  Time since last request: 4.370032 seconds.
+  path: Assets/Resource/Animations/Player/Martelo 2.anim
+  artifactKey: Guid(e3ed64e598b616a48b329c208d92adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Martelo 2.anim using Guid(e3ed64e598b616a48b329c208d92adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f43f8a7449a95220b3948484c85296') in 0.006475 seconds
+  Import took 0.008324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.208909 seconds.
-  path: Assets/Resource/Animations
-  artifactKey: Guid(69ca9bf068575fe4fb768da62555fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource/Animations using Guid(69ca9bf068575fe4fb768da62555fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef68aecd621ff9cd186b07755f76732') in 0.001108 seconds
-  Import took 0.002756 seconds .
+  Time since last request: 6.467769 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Martelo 3.fbx
+  artifactKey: Guid(b123a62eb5c93a54196b9034672ff021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Martelo 3.fbx using Guid(b123a62eb5c93a54196b9034672ff021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb017c05480ad553f7ff2f852b36c6c') in 0.078432 seconds
+  Import took 0.080439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.472906 seconds.
-  path: Assets/Resource/Animations/xbot
+  Time since last request: 0.705131 seconds.
+  path: Assets/Resource/Animations/Player/Martelo 3.anim
+  artifactKey: Guid(8c0fdb4c0a15bc144baef4575d3e2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Martelo 3.anim using Guid(8c0fdb4c0a15bc144baef4575d3e2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9a745106660fba0bdb92ebd0e703fd') in 0.009042 seconds
+  Import took 0.010932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.665064 seconds.
+  path: Assets/Resource/Animations/Player/xbot@Quad Punch.fbx
+  artifactKey: Guid(6bda83d8a85940b43b938b58781a40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/xbot@Quad Punch.fbx using Guid(6bda83d8a85940b43b938b58781a40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dfc402423ffd59870723a2bce2480d') in 0.029706 seconds
+  Import took 0.031683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.504341 seconds.
+  path: Assets/Resource/Animations/Player/Quad Punch.anim
+  artifactKey: Guid(331a9b15c8889f54b893948db90f7d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Quad Punch.anim using Guid(331a9b15c8889f54b893948db90f7d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f051194cd8f7e56a677de6fc7965c3') in 0.006982 seconds
+  Import took 0.008769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.739514 seconds.
+  path: Assets/Resource/Animations/Player/Martelo_01.anim
+  artifactKey: Guid(e3ed64e598b616a48b329c208d92adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Martelo_01.anim using Guid(e3ed64e598b616a48b329c208d92adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb963178c3fe51474be661ee22d5855c') in 0.006472 seconds
+  Import took 0.008494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.721139 seconds.
+  path: Assets/Resource/Animations/Player/Martelo_02.anim
+  artifactKey: Guid(8c0fdb4c0a15bc144baef4575d3e2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Martelo_02.anim using Guid(8c0fdb4c0a15bc144baef4575d3e2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccacbaab643eab95d62fbe2238140b8') in 0.008527 seconds
+  Import took 0.010297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.553704 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_01.anim
+  artifactKey: Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_01.anim using Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd710855aa0a4d5b4d47c1d8bcfd1b5') in 0.005424 seconds
+  Import took 0.007276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_01.anim
+  artifactKey: Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_01.anim using Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd710855aa0a4d5b4d47c1d8bcfd1b5') in 0.005132 seconds
+  Import took 0.006792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.649379 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_idle.anim
+  artifactKey: Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_idle.anim using Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a239233ef23c8d022181549da5200ba9') in 0.005145 seconds
+  Import took 0.007075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.730975 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_02.anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_02.anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3226174d1a97a1eec64d8260dc7870bc') in 0.007423 seconds
+  Import took 0.009699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006081 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_02.anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_02.anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3226174d1a97a1eec64d8260dc7870bc') in 0.006147 seconds
+  Import took 0.007912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.408005 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_03.anim
+  artifactKey: Guid(d8240e03421fefe478826cc724ce03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_03.anim using Guid(d8240e03421fefe478826cc724ce03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8482d4b70966f6a1fe0d588b51d55368') in 0.010418 seconds
+  Import took 0.012339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.776548 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_04.anim
+  artifactKey: Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_04.anim using Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec8f8f68b51d520c2204aee9d6651f') in 0.008578 seconds
+  Import took 0.010867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001475 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_04.anim
+  artifactKey: Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_04.anim using Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec8f8f68b51d520c2204aee9d6651f') in 0.006407 seconds
+  Import took 0.008518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.766280 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_doublekick.anim
+  artifactKey: Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_doublekick.anim using Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29de5515a1d3a571dabb7fbf3df24c2a') in 0.008133 seconds
+  Import took 0.010051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.847896 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_.anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_.anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1fd85a9093e871d6993830f9e64a34') in 0.006385 seconds
+  Import took 0.008359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.864413 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_05.anim
+  artifactKey: Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_05.anim using Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc69c2ff431f146feaaa839e5c67dbbc') in 0.006692 seconds
+  Import took 0.008644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005563 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_05.anim
+  artifactKey: Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_05.anim using Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc69c2ff431f146feaaa839e5c67dbbc') in 0.005869 seconds
+  Import took 0.007668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.038039 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_straight.anim
+  artifactKey: Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_straight.anim using Guid(3349a1bd990918c4e9a18cc59ffc8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2668547fd1301ca13c2994fc739fdad5') in 0.005801 seconds
+  Import took 0.007852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.699777 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_06.anim
+  artifactKey: Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_06.anim using Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98606180dac2f59b40b8f18b7b1f8c80') in 0.006085 seconds
+  Import took 0.008139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001605 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_06.anim
+  artifactKey: Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_06.anim using Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98606180dac2f59b40b8f18b7b1f8c80') in 0.005542 seconds
+  Import took 0.007586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.041854 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_left.anim
+  artifactKey: Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_left.anim using Guid(e906e8d1997faab44a49430bc5f157ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c722bd910a6f78ed6e3f1ff90c196ca3') in 0.005396 seconds
+  Import took 0.007211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.189186 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_double.anim
+  artifactKey: Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_double.anim using Guid(c5dd0f2df9a494a44a9f3bece8e1e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52c17043b80e367d186ef1ed740c720') in 0.006145 seconds
+  Import took 0.008483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.127008 seconds.
+  path: Assets/Resource/Animations/Player/Boxing_down.anim
+  artifactKey: Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player/Boxing_down.anim using Guid(2c244e0de03cff04290073dfbc1865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f8cbf8d6e5a9ac34d238f4b3ea02c') in 0.006627 seconds
+  Import took 0.008382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.776275 seconds.
+  path: Assets/Resource/Animations/Player_Female
   artifactKey: Guid(089b55bf4f569d949a98f2f6dcaf6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource/Animations/xbot using Guid(089b55bf4f569d949a98f2f6dcaf6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21145ef481be2b998d7861179cae1d20') in 0.000970 seconds
-  Import took 0.002665 seconds .
+Start importing Assets/Resource/Animations/Player_Female using Guid(089b55bf4f569d949a98f2f6dcaf6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a363f1ef5f979a18567ec43e7e6f620') in 0.001019 seconds
+  Import took 0.002903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.656790 seconds.
-  path: Assets/Resource/Animations/Player
-  artifactKey: Guid(089b55bf4f569d949a98f2f6dcaf6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource/Animations/Player using Guid(089b55bf4f569d949a98f2f6dcaf6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f2e43d3a8d60ce8017fb7b016b102b') in 0.001235 seconds
-  Import took 0.002875 seconds .
+  Time since last request: 18.122144 seconds.
+  path: Assets/Resource/Animations/Player_Female/New Animator Controller.controller
+  artifactKey: Guid(281ef94761a4b20419b67c946e5d0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player_Female/New Animator Controller.controller using Guid(281ef94761a4b20419b67c946e5d0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eedea4dbcea9464c28bc3c36fcf54c') in 0.005271 seconds
+  Import took 0.007055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.386756 seconds.
-  path: Assets/Resource/Animations/Player/Female.fbx
-  artifactKey: Guid(d5bda39e477a5d24a9d6d0ba17500fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resource/Animations/Player/Female.fbx using Guid(d5bda39e477a5d24a9d6d0ba17500fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb177c58233770c1a3434ed69a54b94') in 0.073280 seconds
-  Import took 0.075246 seconds .
+  Time since last request: 0.000460 seconds.
+  path: Assets/Resource/Animations/Player_Female/New Animator Controller.controller
+  artifactKey: Guid(281ef94761a4b20419b67c946e5d0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player_Female/New Animator Controller.controller using Guid(281ef94761a4b20419b67c946e5d0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eedea4dbcea9464c28bc3c36fcf54c') in 0.001343 seconds
+  Import took 0.003320 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 68.452189 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8c096d022b73a44230a678abbfc187') in 0.001654 seconds
-  Import took 0.003585 seconds .
+  Time since last request: 8.681544 seconds.
+  path: Assets/Resource/Animations/Player_Female/[Player_Female].controller
+  artifactKey: Guid(281ef94761a4b20419b67c946e5d0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player_Female/[Player_Female].controller using Guid(281ef94761a4b20419b67c946e5d0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6f08a1d819eeb60291cdb6ea610f25') in 0.001330 seconds
+  Import took 0.003138 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 1.481100 ms (FindLiveObjects: 0.122900 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.315200 ms  DeleteObjects: 0.011100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000888 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8c096d022b73a44230a678abbfc187') in 0.001208 seconds
-  Import took 0.002764 seconds .
+  Time since last request: 36.590128 seconds.
+  path: Assets/Resource/Animations/Player_Female/Boxing_idle.anim
+  artifactKey: Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Animations/Player_Female/Boxing_idle.anim using Guid(ab61d3b9941d6d64d9263c46226638b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a9df35713721f13d0ae1a1e45e0f9') in 0.011368 seconds
+  Import took 0.013290 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 1.696200 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.425800 ms  DeleteObjects: 0.011300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
